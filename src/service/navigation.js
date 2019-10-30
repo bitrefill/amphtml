@@ -295,7 +295,7 @@ export class Navigation {
     }
 
     // Otherwise, perform normal behavior of navigating the top frame.
-    win.top.location.href = url;
+    win.location.href = url;
   }
 
   /**
